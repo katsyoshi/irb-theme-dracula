@@ -13,9 +13,11 @@ If bundler is not being used to manage dependencies, install the gem by executin
     $ gem install irb-theme-dracula
 
 ## Usage
+Following write your irbrc file:
 
 ```ruby ~/.irbrc
-require "irb/theme/dracula/light"
+require "irb/theme/dracula/light" # if your console is dark
+# require "irb/theme/dracula/dark" # if your console is light
 ```
 
 ## Development
